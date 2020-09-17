@@ -144,6 +144,10 @@
     color: #4F4F4F;
 }
 
+.more-more-title span {
+    color: #6A5ACD;
+}
+
 .more-more-menu {
     margin-top: 1em;
     display: flex;
@@ -152,7 +156,7 @@
 
 .about-menu {
     list-style: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .about-menu li {
@@ -160,9 +164,27 @@
     padding-top: 15px;
 }
 
+/* SECOND SECTION > SPAN */
 .negrito {
     font-weight: bold;
     color: #6A5ACD;
+}
+
+.icon-circle-right {
+    color: #4F4F4F;
+}
+/* FINAL SECOND SECTION > SPAN */
+.curriculum {
+    margin-top: 45px;
+}
+
+.link-curriculo {
+    border-radius: 20px;
+    padding: 10px 15px;
+    background: #6A5ACD;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
 }
 
 /* FIM SECOND SECTION */
@@ -229,5 +251,24 @@
         color: white;
         text-decoration: none;
         font-size: 1.2em;
+    }
+
+    .div-more-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .more-more-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .menu-right {
+        margin-top: 20px;
+    }
+
+    .about-menu {
+        font-size: 1em;
     }
 }
