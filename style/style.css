@@ -8,6 +8,36 @@
 }
 /* FIM AJUSTES GERAL */
 
+/* CLASSES PARA OS EFEITOS DO JAVASCRIPT */
+[data-anime] {
+    opacity: 0;
+    transition: .5s;
+}
+
+[data-nime] {
+    opacity: 0;
+    transition: 1s;
+}
+
+[data-nime="left"] {
+    padding-left: -100px
+}
+
+[data-anime="top"] {
+    padding-top: -50px
+}
+
+.animateTopDown {
+    opacity: 1;
+    padding-top: 50px;
+}
+
+.animateRightLeft {
+    opacity: 1;
+    padding-left: 100px;
+}
+/* FIM  CLASSES PARA JS */
+
 
 /* AJUSTES TEXTOS  PARA TELA PC */
 .texto-section-home {
