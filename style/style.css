@@ -20,21 +20,21 @@
 }
 
 [data-nime="left"] {
-    padding-left: -100px
+    transform: translate3d(-50px, 0px, 0px);
 }
 
 [data-anime="top"] {
-    padding-top: -50px
+    transform: translate3d(0px, -50px, 0px);
 }
 
 .animateTopDown {
     opacity: 1;
-    padding-top: 50px;
+    transform: translate3d(0px, 0px, 0px);
 }
 
 .animateRightLeft {
     opacity: 1;
-    padding-left: 100px;
+    transform: translate3d(0px, 0px, 0px);
 }
 /* FIM  CLASSES PARA JS */
 
@@ -59,6 +59,7 @@
     position: sticky;
     left: 0;
     top: 0;
+    z-index: 100;
     border-bottom: 3px solid grey;
 }
 
@@ -192,6 +193,11 @@
 .about-menu li {
     color: #4F4F4F;
     padding-top: 15px;
+}
+
+.link-site {
+    color: #4F4F4F;
+    text-decoration: none;
 }
 
 /* SECOND SECTION > SPAN */
