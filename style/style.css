@@ -204,10 +204,6 @@
 }
 
 /* AJUSTES BARRA DE PROGRESSO > SKILS */
-.container {
-    padding: 5px;
-}
-
 .container ul {
     padding: 0;
     margin: 0;
@@ -289,13 +285,109 @@ li.jq::after {
         width: 30%;
     }
 }
+
 /* FIM AJUSTES BARRA DE PROGRESSOS > SKILSS */
-
-
 /* FIM THREE SECTION || SKILLS */
 
+/* INICIO FOUR SECTION || PROJECTS */ 
+.section-projects {
+    margin-top: 4em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+.section-projects h2 {
+    color: #6A5ACD;
+}
+
+.section-projects-container {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-right: 1em;
+    margin-top: 1em;
+    width: 300px;
+    height: 250px;
+    background: rgba(106,90,205, .3);
+    border-radius: 10px;
+}
+
+/* FIM FOUR SECTION || PROJECTS */
+
+/* INICIO FIVE SECTION || ME CONTRATE */
+.section-me-contrate {
+    margin-top: 4em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;    
+}
+
+.section-me-contrate h2 {
+    color: #6A5ACD;
+}
+
+.div-me-contrate {
+    color: #4F4F4F;
+}
+
+.div-container-me-contrate {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-me-contrate-left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.photo-social-media {
+    width: 600px;
+}
+
+.card-social-media {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.link-social-media {
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 15px 50px;
+    background: #6A5ACD;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.link-social-media span {
+    padding-left: 10px;
+}
+
+/* FIM FIVE SECTION || ME CONTRATE */
+
+/* INICIO RODAPÉ */
+    .rodape-section {
+        display: flex;
+        flex-direction: column;
+        background:#6A5ACD;
+        height: 4em;
+        align-items: center;
+    }
+
+    .rodape-section h5 {
+        margin-top: 0.8em;
+        color: white;
+    }
+/* FIM RODAPÉ */
+
 /* RESPONSIVIDADE (MOBILE) */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .texto-section-home {
         padding-top: 0em;
         color: #4F4F4F;
@@ -375,5 +467,13 @@ li.jq::after {
 
     .about-menu {
         font-size: 1em;
+    }
+
+    .card {
+        margin-top: 1em;
+    }
+
+    .photo-social-media {
+        display: none;
     }
 }
