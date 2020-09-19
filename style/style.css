@@ -277,7 +277,7 @@
     height: 15px;
     background: rgba(106,90,205, 1);
     border-radius: 100px;
-    animation-duration: 2.3s;
+    animation-duration: 10.7s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
 }
@@ -441,7 +441,7 @@ li.jq::after {
         position: fixed;
 		width: 100%;
 		height: 100vh;
-		background: #1d075f;
+		background: #6A5ACD;
 		top: 80px;
 		left: -100%;
 		text-align: center;
