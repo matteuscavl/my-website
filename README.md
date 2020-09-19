@@ -1,5 +1,5 @@
 ### 📷 Um pouco de como ele ficou:
-<img src="images/imagem_para_reame.jpeg">
+![Alt text](images/imagem_para_readme.jpeg "print")
 <hr>
 
 ### 🚀 Tecnologias: 
