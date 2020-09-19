@@ -1,5 +1,5 @@
 ### 📷 Um pouco de como ele ficou:
-![Alt text](images/imagem_para_readme.jpeg "print")
+![imagem_para_readme](https://user-images.githubusercontent.com/71419758/93657700-0a24f580-fa0b-11ea-805b-6dbe3548c3de.jpg)
 <hr>
 
 ### 🚀 Tecnologias: 
