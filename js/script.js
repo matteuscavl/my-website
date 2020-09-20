@@ -76,3 +76,13 @@ $('.main-header a').click(function(e) {
         scrollTop: targetOffset - 80
     }, 500)
 })
+
+$('.div-up a').click(function(e) {
+    e.preventDefault();
+
+    let id = $(this).attr('href')
+    targetOffset = $(id).offset().top;
+    $('html, body').animate({
+        scrollTop: targetOffset - 80
+    }, 800)
+})

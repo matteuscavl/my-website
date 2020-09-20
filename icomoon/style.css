@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?w29z2a');
-  src:  url('fonts/icomoon.eot?w29z2a#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?w29z2a') format('truetype'),
-    url('fonts/icomoon.woff?w29z2a') format('woff'),
-    url('fonts/icomoon.svg?w29z2a#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?l9dbna');
+  src:  url('fonts/icomoon.eot?l9dbna#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?l9dbna') format('truetype'),
+    url('fonts/icomoon.woff?l9dbna') format('woff'),
+    url('fonts/icomoon.svg?l9dbna#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -28,11 +28,11 @@
 .icon-pencil2:before {
   content: "\e906";
 }
-.icon-display:before {
-  content: "\e956";
-}
 .icon-quotes-left:before {
   content: "\e977";
+}
+.icon-circle-up:before {
+  content: "\ea41";
 }
 .icon-circle-right:before {
   content: "\ea42";
@@ -46,12 +46,6 @@
 .icon-whatsapp:before {
   content: "\ea93";
 }
-.icon-telegram:before {
-  content: "\ea95";
-}
 .icon-github:before {
   content: "\eab0";
-}
-.icon-stackoverflow:before {
-  content: "\ead0";
 }

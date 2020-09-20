@@ -6,6 +6,24 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+.div-up {
+    display: none;
+    /* position: fixed;
+    bottom: 30px;
+    right: 50px;
+    background: #6A5ACD;
+    height: 5em;
+    width: 5em;
+    text-align: center;
+    padding: 24px;
+    border-radius: 50px */
+}
+
+.div-up span {
+    color: white;
+    font-size: 2em;
+}
 /* FIM AJUSTES GERAL */
 
 /* CLASSES PARA OS EFEITOS DO JAVASCRIPT */
@@ -511,5 +529,22 @@ li.jq::after {
 
     .photo-social-media {
         display: none;
+    }
+
+    .div-up {
+        display: block;
+        position: fixed;
+        bottom: 20px;
+        right: 10px;
+        background: #6A5ACD;
+        height: 3em;
+        width: 3em;
+        text-align: center;
+        padding: 8px;
+        border-radius: 50px
+    }
+
+    .div-up a {
+        text-decoration: none;
     }
 }
