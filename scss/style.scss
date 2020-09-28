@@ -11,27 +11,33 @@
     text-align: center;
     color: white;
 
-    .text-effect {
-        margin-left: 40px;
-    }
-
     @media screen and (max-width: 900px) {
         .title {
             font-size: 1.3em;
-        }
-
-        .text-effect {
-            margin: 0;
         }
 
         .console-container {
             width: 90%;
         }
     }
+
+    .list-social-medias {
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+
+    .list-social-medias li {
+        padding: 20px;
+        font-size: 1.3em;
+    }
+
+    .list-social-medias a {
+        color: white;
+    }
 }
 
 .console-container {
-    margin-top: 2em;
     width: 50%;
 
     .console-aba-topo {
@@ -87,6 +93,7 @@
 
         h2 {
             font-size: 1em;
+            color: #FF95BD;
         }
 
         p {
