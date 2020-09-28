@@ -133,6 +133,7 @@
 .projects-container {
     margin-top: $espacamento-padrao;
     text-align: center;
+    color: white;
 }
 
 .cards-projetos {
@@ -173,5 +174,41 @@
 
     p {
         padding-bottom: 20px;
+    }
+}
+
+.contact-container {
+    margin-top: $espacamento-padrao;
+
+    h2 {
+        text-align: center;
+        color: white;
+    }
+}
+
+.card-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .card {
+        width: 500px;
+        background-color: $background-terminal;
+        padding: 25px;
+        border-radius: 15px;
+        margin: 20px;
+        box-shadow: 5px 5px 5px rgba(24, 24, 24, 0.158);
+        transition: all 0.5s;
+        color: white;
+        font-size: 1.2em;
+    
+        a {
+            text-decoration: none;
+            color: grey;
+        }
+
+        p:nth-child(1) {
+            padding-bottom: 1.5em;
+        }
     }
 }

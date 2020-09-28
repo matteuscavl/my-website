@@ -38,7 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #4682B4;
+    background: #778899;
     color: white;
   }
   .navigation-header .navigation-menu-list li {
@@ -196,6 +196,7 @@ body {
 .projects-container {
   margin-top: 1.5em;
   text-align: center;
+  color: white;
 }
 
 .cards-projetos {
@@ -230,6 +231,38 @@ body {
 }
 .cards-projetos p {
   padding-bottom: 20px;
+}
+
+.contact-container {
+  margin-top: 1.5em;
+}
+.contact-container h2 {
+  text-align: center;
+  color: white;
+}
+
+.card-contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-contact .card {
+  width: 500px;
+  background-color: #242b3E;
+  padding: 25px;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 5px 5px 5px rgba(24, 24, 24, 0.158);
+  transition: all 0.5s;
+  color: white;
+  font-size: 1.2em;
+}
+.card-contact .card a {
+  text-decoration: none;
+  color: grey;
+}
+.card-contact .card p:nth-child(1) {
+  padding-bottom: 1.5em;
 }
 
 /*# sourceMappingURL=main.css.map */
