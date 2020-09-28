@@ -38,7 +38,7 @@
 }
 
 .console-container {
-    width: 50%;
+    width: 70%;
 
     .console-aba-topo {
         display: flex;
@@ -86,7 +86,7 @@
     }
 
     .console-display {
-        background-color: #242b3E;
+        background-color: $background-terminal;
         text-align: left;
         padding-left: 20px;
         padding-top: 10px;
@@ -128,4 +128,50 @@
         opacity: 1;
     }
 
+}
+
+.projects-container {
+    margin-top: $espacamento-padrao;
+    text-align: center;
+}
+
+.cards-projetos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .card {
+        text-align: center;
+        height: 350px;
+        background-color: $background-terminal;
+        padding: 25px;
+        border-radius: 15px;
+        margin: 20px;
+        flex-basis: 250px;
+        flex-grow: 1;
+        box-shadow: 5px 5px 5px rgba(24, 24, 24, 0.158);
+        transition: all 0.5s;
+        color: white;
+    }
+
+    .card a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .card:nth-child(2) {
+        p:nth-child(3) {
+            padding-bottom: 45px;
+        }
+    }
+
+    .image-card {
+        width: 150px;
+        padding-bottom: 1em;
+    }
+
+    p {
+        padding-bottom: 20px;
+    }
 }

@@ -1,6 +1,6 @@
 const btnMenu = $('.checkbtn');
 const menu = $('.navigation-menu-list')
-const itemConsole = document.querySelector('.item-console');
+const title = document.querySelector('.h1header');
 
 btnMenu.click(function() {
     if(menu.hasClass('navigation-menu-list-toggle')) {
@@ -11,15 +11,15 @@ btnMenu.click(function() {
 })
 
 /* EFEITO DE MÁQUINA DE ESCREVER NO MENU */
-// const maquinaEscreverEffect = (elemento) => {
-// const textArray = elemento.innerHTML.split('')
-// elemento.innerHTML = '';
+const maquinaEscreverEffect = (elemento) => {
+const textArray = elemento.innerHTML.split('')
+elemento.innerHTML = '';
 
-//     textArray.forEach((letra, i) => {
-//         setTimeout(function () {
-//             elemento.innerHTML += letra
-//         }, 80 * i)
-//     })
-// }
+    textArray.forEach((letra, i) => {
+        setTimeout(function () {
+            elemento.innerHTML += letra
+        }, 80 * i)
+    })
+}
 
-// maquinaEscreverEffect(itemConsole);
+maquinaEscreverEffect(title);
