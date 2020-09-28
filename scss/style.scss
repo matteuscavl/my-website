@@ -1,3 +1,124 @@
 @import './menu.scss';
 @import './variables.scss';
 @import './geral.scss';
+
+.main-container {
+    margin-top: $espacamento-padrao;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+
+    .text-effect {
+        margin-left: 40px;
+    }
+
+    @media screen and (max-width: 900px) {
+        .title {
+            font-size: 1.3em;
+        }
+
+        .text-effect {
+            margin: 0;
+        }
+
+        .console-container {
+            width: 90%;
+        }
+    }
+}
+
+.console-container {
+    margin-top: 2em;
+    width: 50%;
+
+    .console-aba-topo {
+        display: flex;
+        background: #e4e3e5;
+        align-items: center;
+        justify-content: space-between;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        padding: 10px;
+
+        .balls {
+            display: flex;
+            background: #e4e3e5;
+
+            .console-ball {
+                margin-right: 5px;
+                height: 12px;
+                width: 12px;
+                border-radius: 50%;
+            }
+    
+            .console-ball:nth-child(1) {
+                background: green;
+            }
+    
+            .console-ball:nth-child(2) {
+                background: tomato;
+            }
+    
+            .console-ball:nth-child(3) {
+                background: white;
+            }
+        }
+
+        .console-ball-end {
+            height: 20px;
+            width: 20px;
+            background: white;
+            color: grey;
+            float: right;
+            cursor: pointer;
+            border-radius: 50%;
+            padding: 0;
+        }
+    }
+
+    .console-display {
+        background-color: #242b3E;
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 10px;
+
+        h2 {
+            font-size: 1em;
+        }
+
+        p {
+            padding-top: 5px;
+            padding-bottom: 20px;
+            padding-right: 15px;
+        }
+
+        a {
+            color: #7BB1CB;
+            text-decoration: none;
+        }
+    }
+}
+
+.item-console::before {
+    content:'>';
+    opacity: 1;
+    animation: pisca .5s infinite;
+}
+
+@keyframes pisca {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
