@@ -1,0 +1,8 @@
+@import './variables.scss';
+
+* {
+    background: $background-color;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
