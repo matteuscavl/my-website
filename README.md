@@ -1,4 +1,8 @@
 ### 📷 Um pouco de como ele ficou:
+<<<<<<< HEAD
+=======
+![imagem_para_readme](https://user-images.githubusercontent.com/71419758/93657700-0a24f580-fa0b-11ea-805b-6dbe3548c3de.jpg)
+>>>>>>> 446591b82d2e5f6e41d2e1780d8cc4407616e600
 <hr>
 
 ### 🚀 Tecnologias: 
