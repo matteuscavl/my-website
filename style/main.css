@@ -109,7 +109,7 @@ body {
 }
 .main-container .list-social-medias li {
   padding: 20px;
-  font-size: 1.3em;
+  font-size: 2em;
 }
 .main-container .list-social-medias a {
   color: white;
@@ -198,6 +198,9 @@ body {
   text-align: center;
   color: white;
 }
+.projects-container h2 {
+  font-size: 1.5em;
+}
 
 .cards-projetos {
   display: flex;
@@ -222,15 +225,18 @@ body {
   color: white;
   text-decoration: none;
 }
-.cards-projetos .card:nth-child(2) p:nth-child(3) {
-  padding-bottom: 45px;
-}
 .cards-projetos .image-card {
-  width: 150px;
+  width: 100px;
   padding-bottom: 1em;
 }
 .cards-projetos p {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+}
+.cards-projetos .card:nth-child(2) p:nth-child(3) {
+  padding-bottom: 90px;
+}
+.cards-projetos .card:nth-child(1) p:nth-child(3) {
+  padding-bottom: 70px;
 }
 
 .contact-container {
@@ -239,6 +245,7 @@ body {
 .contact-container h2 {
   text-align: center;
   color: white;
+  font-size: 1.5em;
 }
 
 .card-contact {
