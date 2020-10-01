@@ -8,6 +8,10 @@
     align-items: center;
     color: white;
 
+    .navigation-menu-list a:hover {
+        color: black;
+    }
+
     @media screen and (max-width: 900px) {
         .navigation-menu {
             display: block;

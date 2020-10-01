@@ -21,6 +21,9 @@ body {
   align-items: center;
   color: white;
 }
+.navigation-header .navigation-menu-list a:hover {
+  color: black;
+}
 @media screen and (max-width: 900px) {
   .navigation-header .navigation-menu {
     display: block;
