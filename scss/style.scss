@@ -2,6 +2,7 @@
 @import './footer.scss';
 @import './variables.scss';
 @import './geral.scss';
+@import './personAtributes.scss';
 
 .main-container {
     margin-top: $espacamento-padrao;
@@ -172,19 +173,19 @@
     }
 
     p {
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
 
     .card:nth-child(2) {
         
         p:nth-child(3) {
-            padding-bottom: 90px;
+            padding-bottom: 70px;
         }
     }
 
     .card:nth-child(1) {
         p:nth-child(3) {
-            padding-bottom: 70px;
+            padding-bottom: 50px;
         }
     }
 }

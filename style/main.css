@@ -112,6 +112,36 @@ body {
   border-radius: 20px;
 }
 
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #778899;
+}
+
+.btn-about {
+  padding: 10px 40px;
+  background: #7BB1CB;
+  border-radius: 20px;
+}
+
+[data-anime] {
+  opacity: 0;
+  transition: 1s;
+}
+
+[data-anime=top] {
+  transform: translate3d(0px, -50px, 0px);
+}
+
+.animateTop {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
 .main-container {
   margin-top: 1.5em;
   display: flex;
@@ -257,13 +287,13 @@ body {
   padding-bottom: 1em;
 }
 .cards-projetos p {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .cards-projetos .card:nth-child(2) p:nth-child(3) {
-  padding-bottom: 90px;
+  padding-bottom: 70px;
 }
 .cards-projetos .card:nth-child(1) p:nth-child(3) {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .contact-container {

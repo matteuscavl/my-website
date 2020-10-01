@@ -1,0 +1,16 @@
+@import './variables.scss';
+@import './geral.scss';
+
+[data-anime] {
+    opacity: 0;
+    transition: 1s;
+}
+
+[data-anime="top"] {
+    transform: translate3d(0px, -50px, 0px);
+}
+
+.animateTop {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
