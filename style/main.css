@@ -270,7 +270,7 @@ body {
 }
 .cards-projetos .card {
   text-align: center;
-  height: 370px;
+  height: auto;
   background-color: #242b3E;
   padding: 25px;
   border-radius: 15px;
