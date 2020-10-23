@@ -172,22 +172,22 @@
         padding-bottom: 1em;
     }
 
-    p {
-        padding-bottom: 30px;
-    }
+    // p {
+    //     padding-bottom: 30px;
+    // }
 
-    .card:nth-child(2) {
+    // .card:nth-child(2) {
         
-        p:nth-child(3) {
-            padding-bottom: 70px;
-        }
-    }
+    //     p:nth-child(3) {
+    //         padding-bottom: 70px;
+    //     }
+    // }
 
-    .card:nth-child(1) {
-        p:nth-child(3) {
-            padding-bottom: 50px;
-        }
-    }
+    // .card:nth-child(1) {
+    //     p:nth-child(3) {
+    //         padding-bottom: 50px;
+    //     }
+    // }
 }
 
 .contact-container {
@@ -221,8 +221,8 @@
             color: grey;
         }
 
-        p:nth-child(1) {
-            padding-bottom: 1.5em;
-        }
+        // p:nth-child(1) {
+        //     padding-bottom: 1.5em;
+        // }
     }
 }
